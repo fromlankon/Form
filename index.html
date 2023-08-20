@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Form </title>
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AliAghayev132/iconsall/src/css/icons/fontawesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/AliAghayev132/iconsall/src/css/icons/bootstrap.css">
+</head>
+
+<body>
+
+    <form action="">
+        <div class="container">
+            <p class="text1"> Registration </p>
+            <div class="inputs">
+                <div class="input1">
+                    <input type="text" class="input" placeholder="Enter your name">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="input2">
+                    <input type="email" class="input" placeholder="Enter your email">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input3">
+                    <input type="password" class="passwordInput1" placeholder="Create password">
+                    <i class="fa-solid fa-lock"></i>
+                    <div class="hide">
+                        <i class="fa-solid fa-eye-slash hide"></i>
+                    </div>
+                    <div class="show">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                </div>
+                <div class="input4">
+                    <input type="password" class="passwordInput2" placeholder="Confirm password">
+                    <i class="fa-solid fa-lock"></i>
+                    <div class="hide2">
+                        <i class="fa-solid fa-eye-slash hide"></i>
+                    </div>
+                    <div class="show2">
+                        <i class="fa-solid fa-eye"></i>
+                    </div>
+                </div>
+                <div class="check" class="input">
+                    <input type="checkbox" id="check">
+                    <label class="text2" for="check"> I accepted all terms and conditions </label>
+                </div>
+            </div>
+            <button type="submit" class="btn"> Sign Up </button>
+            <div class="icons">
+                <a href="https://www.facebook.com" target="_blank">
+                    <img src="./src/img/Facebook.png">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="./src/img/Twitter.png">
+                </a>
+                <a href="https://mail.google.com/mail" target="_blank">
+                    <img src="./src/img/Google.png">
+                </a>
+            </div>
+            <p class="text3"> Already a member? <a href="./src/html/login.html"> Login now </a> </p>
+        </div>
+    </form>
+
+    <script src="./src/js/main.js"></script>
+</body>
+
+</html>

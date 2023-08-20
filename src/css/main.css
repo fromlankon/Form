@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Medium;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 420px;
+    height: 550px;
+    background-color: white;
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.text1{
+    font-family: Bold;
+    font-size: 24px;
+}
+
+.text2{
+    font-family: Medium;
+    font-size: 12px;
+    padding-left: 6px;
+    user-select: none;
+}
+
+.text3{
+    font-family: Medium;
+    font-size: 14px;
+    user-select: none;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.check{
+    display: flex;
+}
+
+.input{
+    width: 360px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(195, 195, 195);
+    font-family: Medium;
+    padding-left: 33px;
+}
+
+.passwordInput1{
+    width: 360px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(195, 195, 195);
+    font-family: Medium;
+    padding-left: 33px;
+}
+
+.passwordInput2{
+    width: 360px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(195, 195, 195);
+    font-family: Medium;
+    padding-left: 33px;
+}
+
+.btn{
+    width: 360px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-family: Bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.input1, .input2, .input3, .input4{
+    position: relative;
+}
+
+.input::placeholder{
+    color: rgb(127, 127, 127);
+}
+
+.fa-user{
+    position: absolute;
+    left: 0;
+    top: 8px;
+    font-size: 22px;
+    color: rgb(127, 127, 127);
+}
+
+.fa-envelope{
+    position: absolute;
+    left: 0;
+    top: 8px;
+    font-size: 22px;
+    color: rgb(127, 127, 127);
+}
+
+.fa-lock{
+    position: absolute;
+    left: 0;
+    top: 7px;
+    font-size: 22px;
+    color: rgb(127, 127, 127);
+}
+
+.fa-eye-slash{
+    font-size: 20px;
+    color: rgb(127, 127, 127);
+    position: absolute;
+    right: 8px;
+    top: calc(50% - 10px);
+    cursor: pointer;
+    display: none;
+}
+
+.fa-eye{
+    font-size: 20px;
+    color: rgb(127, 127, 127);
+    position: absolute;
+    right: 8px;
+    top: calc(50% - 10px);
+    cursor: pointer;
+}
+
+.hide{
+    display: block;
+}
+
+.show{
+    display: none;
+}
+
+.hide2{
+    display: block;
+}
+
+.show2{
+    display: none;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+}
+
+.icons img{
+    width: 25px;
+    cursor: pointer;
+}
